@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /opt/node-app
-nohup npm start > app.log 2>&1 &
+cd /home/ec2-user/node-app
+npm start > app.log 2>&1 &
