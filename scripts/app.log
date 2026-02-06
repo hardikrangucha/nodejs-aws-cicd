@@ -1,0 +1,5 @@
+
+> nodejs-aws-cicd@1.0.0 start
+> node app.js
+
+App running on port 3000
