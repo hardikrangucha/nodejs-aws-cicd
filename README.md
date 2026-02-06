@@ -9,6 +9,7 @@ The setup is intentionally simple and suitable for learning, labs, and assignmen
 ---
 
 ## 📌 Architecture Overview
+```
 GitHub
 ↓
 CodePipeline
@@ -18,7 +19,7 @@ CodeBuild
 CodeDeploy
 ↓
 EC2 (Amazon Linux 2)
-
+```
 ---
 
 ## 🧩 Application Overview
@@ -120,5 +121,6 @@ npm start
 ```
 Open in browser:
 http://localhost:3000
+
 
 
