@@ -38,15 +38,15 @@ EC2 (Amazon Linux 2)
 
 ## 📁 Project Structure
 nodejs-aws-cicd/
-├── app.js
-├── package.json
-├── buildspec.yml
-├── appspec.yml
-├── scripts/
-│   ├── install_dependencies.sh
-│   ├── start_server.sh
-│   └── stop_server.sh
-└── README.md
+├── app.js                  # Main Node.js application
+├── package.json            # Node.js dependencies and scripts
+├── buildspec.yml            # AWS CodeBuild instructions
+├── appspec.yml              # AWS CodeDeploy deployment configuration
+├── scripts/                 # Deployment lifecycle scripts
+│   ├── install_dependencies.sh  # Installs npm dependencies on EC2
+│   ├── start_server.sh          # Starts the Node.js application
+│   └── stop_server.sh           # Stops the running Node.js application
+└── README.md                # Project documentation
 
 ---
 
@@ -119,3 +119,4 @@ npm start
 ```
 Open in browser:
 http://localhost:3000
+
