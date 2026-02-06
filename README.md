@@ -37,6 +37,7 @@ EC2 (Amazon Linux 2)
 ---
 
 ## 📁 Project Structure
+```
 nodejs-aws-cicd/
 ├── app.js                  # Main Node.js application
 ├── package.json            # Node.js dependencies and scripts
@@ -47,7 +48,7 @@ nodejs-aws-cicd/
 │   ├── start_server.sh          # Starts the Node.js application
 │   └── stop_server.sh           # Stops the running Node.js application
 └── README.md                # Project documentation
-
+```
 ---
 
 ## 🪜 CI/CD Pipeline Tasks
@@ -119,4 +120,5 @@ npm start
 ```
 Open in browser:
 http://localhost:3000
+
 
