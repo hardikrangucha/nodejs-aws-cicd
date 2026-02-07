@@ -4,8 +4,8 @@ phases:
   install:
     commands:
       - echo Installing dependencies...
-      - sudo yum update -y
-      - sudo npm install
+      - yum update -y
+      - npm install
 
   build:
     commands:
