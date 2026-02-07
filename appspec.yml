@@ -10,12 +10,6 @@ hooks:
     - location: scripts/stop_server.sh
       timeout: 60
       runas: root
-    - location: scripts/prepare_app_dir.sh
-      timeout: 60
-      runas: root
-    - location: scripts/fix_permissions.sh
-      timeout: 60
-      runas: root
 
   AfterInstall:
     - location: scripts/install_dependencies.sh
