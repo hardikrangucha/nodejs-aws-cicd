@@ -1,3 +1,7 @@
 #!/bin/bash
+set -e
+
 cd /home/ec2-user/node-app
-npm start > app.log 2>&1 &
+
+echo "Starting app at $(date)" > app.log
+npm start >> app.log 2>&1 &
